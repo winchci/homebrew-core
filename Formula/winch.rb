@@ -4,7 +4,7 @@ class Winch < Formula
   version "1.1.7"
   bottle :unneeded
 
-  url "/Users/seth/Downloads/darwin-amd64.tgz"
+  url "https://github.com/winchci/winch/releases/download/v1.1.7/darwin-amd64.tgz"
   sha256 "57447a6c3fd4b7caf94b4506c3097ea6c99bc7c4edf273307100a31aaf8d53a0"
 
   def install
