@@ -1,11 +1,11 @@
 class Winch < Formula
   desc "Universal build and release tool"
   homepage "https://github.com/winchci/winch"
-  version "1.2.5"
+  version "1.3.0"
   bottle :unneeded
 
-  url "https://github.com/winchci/winch/releases/download/v1.2.5/darwin-amd64.tgz"
-  sha256 "3b39c866449ad6c3e0dccf72f31d4546c0c88942600dc7ca211320cfc4f947b1"
+  url "https://github.com/winchci/winch/releases/download/v1.3.0/darwin-amd64.tgz"
+  sha256 "f4153c642957eb388ae89854aecd6c7f491526e79ac8c03c0993f6f0e459f709"
 
   def install
     bin.install "winch"
